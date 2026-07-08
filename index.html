@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aniket Gupta — Stanford MS CS</title>
 <meta name="description" content="Aniket Gupta — MS Computer Science at Stanford. LLM post-training, reinforcement learning, and generative model evaluation. Previously Samsung Electronics HQ and slice.">
+<meta name="author" content="Aniket Gupta">
+<link rel="canonical" href="https://aniketgupta07.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%238c1515'/%3E%3Ctext%20x='32'%20y='43'%20font-family='Arial,sans-serif'%20font-size='27'%20font-weight='700'%20fill='%23fff'%20text-anchor='middle'%3EAG%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Aniket Gupta — Stanford MS CS">
+<meta property="og:description" content="MS Computer Science at Stanford. LLM post-training, reinforcement learning, and generative model evaluation.">
+<meta property="og:url" content="https://aniketgupta07.github.io/">
+<meta property="og:image" content="https://aniketgupta07.github.io/assets/aniket.jpg">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Aniket Gupta","url":"https://aniketgupta07.github.io/","image":"https://aniketgupta07.github.io/assets/aniket.jpg","email":"mailto:aniketg@stanford.edu","affiliation":{"@type":"CollegeOrUniversity","name":"Stanford University"},"alumniOf":{"@type":"CollegeOrUniversity","name":"IIT Kanpur"},"sameAs":["https://www.linkedin.com/in/ganiket","https://github.com/AniketGupta07"]}
+</script>
 <style>
   :root {
     --bg: #fdfcfa;
@@ -14,6 +26,7 @@
     --accent-soft: #8c151514;
     --line: #e6e2dc;
     --card: #ffffff;
+    --accent-contrast: #ffffff;
     color-scheme: light dark;
   }
   @media (prefers-color-scheme: dark) {
@@ -25,6 +38,7 @@
       --accent-soft: #ff808018;
       --line: #2a2e34;
       --card: #1b1e23;
+      --accent-contrast: #14161a;
     }
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -52,7 +66,7 @@
     display: inline-block; padding: 6px 14px; border: 1px solid var(--line);
     border-radius: 999px; font-size: 0.88rem; color: var(--text); background: var(--card);
   }
-  .links a.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .links a.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-contrast); font-weight: 600; }
   .links a:hover { text-decoration: none; border-color: var(--accent); }
   .links a.primary:hover { opacity: 0.9; }
 
@@ -67,7 +81,7 @@
 
   /* Entries (experience / education) */
   .entry { display: flex; gap: 20px; margin-bottom: 26px; }
-  .entry .when { flex: 0 0 128px; color: var(--muted); font-size: 0.88rem; padding-top: 3px; }
+  .entry .when { flex: 0 0 150px; color: var(--muted); font-size: 0.88rem; padding-top: 3px; white-space: nowrap; }
   .entry .what h3 { font-size: 1.04rem; font-weight: 600; }
   .entry .what .where { color: var(--muted); font-size: 0.92rem; margin-bottom: 6px; }
   .entry .what p, .entry .what li { font-size: 0.95rem; color: var(--text); }
@@ -75,7 +89,8 @@
   .entry .what li { margin-bottom: 3px; }
 
   /* Project cards */
-  .project { padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); margin-bottom: 16px; }
+  .project { padding: 20px 22px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); margin-bottom: 16px; transition: border-color 0.15s ease; }
+  .project:hover { border-color: var(--muted); }
   .project h3 { font-size: 1.05rem; font-weight: 650; }
   .project .meta { color: var(--muted); font-size: 0.86rem; margin: 2px 0 8px; }
   .project p { font-size: 0.95rem; }
@@ -115,10 +130,10 @@
       <p class="tagline">MS Computer Science @ Stanford University · MLE Intern @ Upstart<br>
       LLM post-training · Reinforcement learning · Generative model evaluation</p>
       <div class="links">
-        <a class="primary" href="assets/Aniket_Gupta_CV.pdf">Download CV</a>
+        <a class="primary" href="assets/Aniket_Gupta_CV.pdf" target="_blank" rel="noopener">Download CV</a>
         <a href="mailto:aniketg@stanford.edu">aniketg@stanford.edu</a>
-        <a href="https://www.linkedin.com/in/ganiket">LinkedIn</a>
-        <a href="https://github.com/AniketGupta07">GitHub</a>
+        <a href="https://www.linkedin.com/in/ganiket" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/AniketGupta07" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </div>
@@ -134,8 +149,8 @@
     <p>Before Stanford, I spent <strong>2.5 years as a software engineer at Samsung Electronics HQ</strong>
     (Suwon, South Korea) working on touch input kernel drivers and on-device gesture recognition for
     flagship phones, and a year at fintech startup <strong>slice</strong> as AVP of Strategy &amp;
-    Operations. I did my B.Tech. in CS at <strong>IIT Kanpur</strong>, graduating with a 9.94/10 GPA
-    (top of a highly competitive cohort, Academic Excellence Award all four years).</p>
+    Operations. I did my B.Tech. in CS at <strong>IIT Kanpur</strong>, graduating with Distinction with
+    a 9.94/10 GPA and the Academic Excellence Award in all four years.</p>
   </section>
 
   <section>
@@ -143,7 +158,7 @@
 
     <div class="project">
       <h3>Recreating Video Arenas via Automated Preference Scoring<span class="badge">Under review · NeurIPS 2026</span></h3>
-      <p class="meta">Stanford University · 2025–26 · <a href="https://aniketgupta07.github.io/super_flow_grpo/">Paper website</a></p>
+      <p class="meta">Stanford · 2025–26 · <a href="https://aniketgupta07.github.io/super_flow_grpo/" target="_blank" rel="noopener">Paper website</a></p>
       <p>Introduced <strong>Video Preference Score (VPS)</strong>, a fully automated preference model that
       recreates large-scale Elo-based video-generation arenas without human raters. Trained on a newly
       collected dataset augmenting generated videos with retrieved real-world footage, VPS correlates
@@ -163,7 +178,7 @@
 
     <div class="project">
       <h3>Casting the Graph: Predicting Stars Before They Shine</h3>
-      <p class="meta">CS 224W (ML with Graphs, Prof. Jure Leskovec) · Stanford · 2025 · <a href="https://medium.com/@janhavipurkar/4b0e538b5e69">Blog post</a></p>
+      <p class="meta">CS 224W (ML with Graphs, Prof. Jure Leskovec) · Stanford · 2025 · <a href="https://medium.com/@janhavipurkar/4b0e538b5e69" target="_blank" rel="noopener">Blog post</a></p>
       <p>Modeled the film industry as a heterogeneous graph — ~37k movies, ~163k people, ~400k edges,
       with BERT plot embeddings and Laplacian positional encodings — and trained R-GCN and HGT models
       for cast recommendation as link prediction (HGT AUC 0.76 vs 0.52 ALS baseline) and IMDb rating
@@ -172,7 +187,7 @@
 
     <div class="project">
       <h3>PEFT for GPT-2: Paraphrase Detection &amp; Sonnet Generation</h3>
-      <p class="meta">CS 224N (NLP with Deep Learning) · Stanford · 2026 · <a href="assets/CS224N_Poster.pdf">Poster</a></p>
+      <p class="meta">CS 224N (NLP with Deep Learning) · Stanford · 2026 · <a href="assets/CS224N_Poster.pdf" target="_blank" rel="noopener">Poster</a></p>
       <p>Implemented GPT-2 from scratch, then studied how far parameter-efficient fine-tuning can go:
       LoRA/DoRA on KQV+MLP recovers nearly all of full fine-tuning's paraphrase accuracy
       (0.882 vs 0.898) with ~7% of trainable parameters, and repetition-aware decoding was the
@@ -183,7 +198,7 @@
 
     <div class="project">
       <h3>Extending GemOS</h3>
-      <p class="meta">Operating Systems · IIT Kanpur</p>
+      <p class="meta">Operating Systems (CS 330) · IIT Kanpur · 2019</p>
       <p>Implemented core OS primitives in a teaching kernel: locks, <code>fork</code>/<code>vfork</code>,
       <code>mmap</code>, and file-system read/write/lseek operations.</p>
     </div>
@@ -299,7 +314,7 @@
   <section>
     <h2>Teaching</h2>
     <ul class="awards">
-      <li>Course assistant, <strong>CS 231N: Deep Learning for Computer Vision</strong>, Stanford (Fall 2026).</li>
+      <li>Course assistant, <strong>CS 231N: Deep Learning for Computer Vision</strong>, Stanford (Spring 2026).</li>
       <li>Tutor, Introduction to Programming, IIT Kanpur (2020–21); academic mentor for freshmen via the IITK Counselling Service.</li>
     </ul>
   </section>
