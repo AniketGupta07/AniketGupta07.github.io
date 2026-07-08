@@ -162,10 +162,12 @@
     </div>
 
     <div class="project">
-      <h3>Casting the Graph</h3>
+      <h3>Casting the Graph: Predicting Stars Before They Shine</h3>
       <p class="meta">CS 224W (ML with Graphs, Prof. Jure Leskovec) · Stanford · 2025 · <a href="https://medium.com/@janhavipurkar/4b0e538b5e69">Blog post</a></p>
-      <p>Graph-transformer based cast recommendation system that predicts suitable actors and expected
-      movie rating directly from a film's plot description.</p>
+      <p>Modeled the film industry as a heterogeneous graph — ~37k movies, ~163k people, ~400k edges,
+      with BERT plot embeddings and Laplacian positional encodings — and trained R-GCN and HGT models
+      for cast recommendation as link prediction (HGT AUC 0.76 vs 0.52 ALS baseline) and IMDb rating
+      prediction as node regression (RMSE 0.81 vs 1.04 Node2Vec + XGBoost).</p>
     </div>
 
     <div class="project">
